@@ -107,13 +107,25 @@
     height: 261px;
     margin-top: 150px;
     margin-left: 4px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     font-family: Sansation;
     font-size: 27px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+  #title-login {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    color: #060606;
+    font-family: Sansation;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
   }
 }
 
@@ -170,5 +182,17 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+  #title-login {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 690px;
+    color: #060606;
+    font-family: Sansation;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
   }
 }
