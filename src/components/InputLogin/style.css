@@ -1,0 +1,108 @@
+@media (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .input-login {
+        position: absolute;
+        width: 237px;
+        height: 27px;
+        border-radius: 20px;
+        padding: 3px;
+        margin-left: 183px;
+        background-color: #fff;
+    }
+
+    #input-login-email {
+        margin-top: 345px;
+    }
+
+    #input-login-password {
+        margin-top: 400px;
+    }
+
+    .img-login {
+        margin-left: -173px;
+        position: absolute;
+        z-index: 2;
+        background-color: transparent;
+    }
+
+    #img-input-login-email {
+       margin-top: 402px;
+
+    }
+
+    #img-input-login-password {
+        margin-top: 66px;
+
+    }
+
+    #botao {
+        position: absolute;
+        width: 214px;
+        height: 49px;
+        /* background-color: aqua; */
+        margin-top: 500px;
+        margin-left: 442px;
+        border-radius: 20px 20px 20px 20px;
+        background: rgb(30, 144, 226);
+        background: linear-gradient(180deg, rgba(30, 144, 226, 1) 0%, rgba(38, 180, 232, 1) 46%, rgba(12, 97, 158, 1) 100%);
+        color: #fff;
+        border: #fff;
+        font-size: 20px;
+    }
+        
+}
+
+@media (min-width: 1024px) {
+
+    .input-login {
+        position: absolute;
+        width: 237px;
+        height: 27px;
+        border-radius: 20px;
+        padding: 3px;
+        margin-left: 615px;
+        background-color: #fff;
+    }
+
+    #input-login-email {
+        margin-top: -400px;
+    }
+
+    #input-login-password {
+        margin-top: -320px;
+    }
+
+    .img-login {
+        margin-left: 0px;
+        position: absolute;
+        z-index: 2;
+        background-color: transparent;
+    }
+
+    #img-input-login-email {
+        margin-top: 0px;
+
+    }
+
+    #img-input-login-password {
+        margin-top: 0px;
+
+    }
+
+}
+#botao {
+    position: absolute;
+    width: 214px;
+    height: 49px;
+    /* background-color: aqua; */
+    margin-top: 375px;
+    margin-left: 628px;
+    border-radius: 20px 20px 20px 20px;
+    background: rgb(30, 144, 226);
+    background: linear-gradient(180deg, rgba(30, 144, 226, 1) 0%, rgba(38, 180, 232, 1) 46%, rgba(12, 97, 158, 1) 100%);
+    color: #fff;
+    border: #fff;
+    font-size: 20px;
+}
