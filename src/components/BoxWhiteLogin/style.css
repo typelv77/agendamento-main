@@ -59,6 +59,20 @@
     line-height: normal;
     background-color: transparent;
   }
+  #botao {
+    position: absolute;
+    width: 214px;
+    height: 49px;
+    /* background-color: aqua; */
+    margin-top: 300px;
+    margin-left: 0px;
+    border-radius: 20px;
+    /* background: rgb(30, 144, 226); */
+    background: linear-gradient(180deg, #1e90e2 0%, #26b4e8 46%, #0c619e 100%);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -126,6 +140,20 @@
     font-weight: 400;
     line-height: normal;
     background-color: transparent;
+  }
+  #botao {
+    position: absolute;
+    width: 214px;
+    height: 49px;
+    /* background-color: aqua; */
+    margin-top: 450px;
+    margin-left: 450px;
+    border-radius: 20px;
+    /* background: rgb(30, 144, 226); */
+    background: linear-gradient(180deg, #1e90e2 0%, #26b4e8 46%, #0c619e 100%);
+    color: #fff;
+    border: none;
+    font-size: 20px;
   }
 }
 
@@ -196,4 +224,19 @@
     background-color: transparent;
   }
   
+
+#botao {
+  position: absolute;
+  width: 214px;
+  height: 49px;
+  /* background-color: aqua; */
+  margin-top: 375px;
+  margin-left: 628px;
+  border-radius: 20px;
+  /* background: rgb(30, 144, 226); */
+  background: linear-gradient(180deg, #1e90e2 0%, #26b4e8 46%, #0c619e 100%);
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
 }
