@@ -1,41 +1,37 @@
 @media (max-width: 767px) {
     .input-login {
-        position: absolute;
-        width: 237px;
-        height: 27px;
-        border-radius: 20px;
-        padding: 3px;
-        margin-left:200px;
-        background-color: #fff;
+      position: absolute;
+      width: 237px;
+      height: 27px;
+      border-radius: 20px;
+      padding: 3px;
+      margin-left: -183px;
+      background-color: #fff;
     }
-
+  
     #input-login-email {
-        margin-top: 300px;
+      margin-top: 345px;
     }
-
+  
     #input-login-password {
-        margin-top: 400px;
+      margin-top: 400px;
     }
-
+  
     .img-login {
-        margin-left: -173px;
-        position: absolute;
-        z-index: 2;
-        background-color: transparent;
+      position: absolute;
+      margin-left: -173px;
+      z-index: 2;
+      background-color: transparent;
     }
-
+  
     #img-input-login-email {
-       margin-top: 402px;
-
+      margin-top: 349px;
     }
-
+  
     #img-input-login-password {
-        margin-top: 66px;
-
+      margin-top: 43px;
     }
-
-    
-}
+  }
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
