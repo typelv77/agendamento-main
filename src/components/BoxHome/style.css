@@ -13,6 +13,7 @@
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Estilos para telas médias */
     
+    
   }
   
   @media (min-width: 1024px) {
@@ -150,6 +151,15 @@ background: #9DC8E8;
     margin-left: 448px;
         background-color: transparent;
    }
+   #close-menul{
+     margin-top: 395px;
+       margin-left: 2px;
+       position: absolute;
+       background-color: transparent;
+       height: 20px;
+       width: 20px;
+       cursor: pointer;
+   }
     #span{
         position: absolute;
         width: 361px;
@@ -158,6 +168,7 @@ background: #9DC8E8;
         margin-left: 599px;
         background: linear-gradient(219deg, rgba(25, 141, 225, 0.98) 26.64%, rgba(129, 188, 231, 0.21) 79.42%), #FFF;
     }
+    
 
     .list-modal{
         display: flex;
@@ -165,12 +176,13 @@ background: #9DC8E8;
         align-items: center;
         gap: 15px;
         width: 335px;
+        height: 70px;
         padding: 10px 15px 10px 10px;
         cursor: pointer;
     }
 
     .list-modal:hover{
-        background-color: rgb(159, 159, 159);
+        background-color: rgb(60, 57, 57);
 
     
     }

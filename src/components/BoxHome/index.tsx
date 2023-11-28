@@ -15,6 +15,7 @@ const BoxHome = () => {
         <img id="img" src="public\lupa.png" alt="lupa" />
         <img id="barras" src="public\barras.png" alt="barras de opiçoes" />
         <img id="next-button" src="public\next.png" alt="next" />
+        
         <span id="span" ></span>
         <div id="menul">
             <span className="list-modal">
@@ -30,6 +31,7 @@ const BoxHome = () => {
                 <img id="saida" src="public\icone-saida.png" alt="exit" />
                 <h1 className="list-modal" id="h3-sair">Sair</h1>
             </span>
+            <img id="close-menul" src="public\close-menul.png" alt="close" />
         </div>
     </div>;
 }
