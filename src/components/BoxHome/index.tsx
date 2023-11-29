@@ -1,21 +1,30 @@
 import "./style.css"
 
+
 const BoxHome = () => {
+
+ const handleModal = (switch:string) => {
+    if (switch===open){
+        document.querySelector("#open-menul").
+    }
+
+ }
+
     return <div id="Box-principal">
         <div id="box-1">
             <h1 id="titulo">Ambientes</h1>
         </div>
-        <div id="box-ll1"></div>
-        <div id="box-ll2"></div>
-        <div id="box-ll3"></div>
-        <div id="box-ll4"></div>
-        <div id="box-ll5"></div>
-        <div id="box-ll6"></div>
+        <div className="list-box-l1" id="box-ll1"></div>
+        <div className="list-box-l1" id="box-ll2"></div>
+        <div className="list-box-l1" id="box-ll3"></div>
+        <div className="list-box-l2" id="box-ll4"></div>
+        <div className="list-box-l2" id="box-ll5"></div>
+        <div className="list-box-l2" id="box-ll6"></div>
         <input id="input" type="" />
         <img id="img" src="public\lupa.png" alt="lupa" />
         <img id="barras" src="public\barras.png" alt="barras de opiçoes" />
         <img id="next-button" src="public\next.png" alt="next" />
-        
+        <img id="open-menul" src="public\close-menul.png" alt="close" />
         <span id="span" ></span>
         <div id="menul">
             <span className="list-modal">
